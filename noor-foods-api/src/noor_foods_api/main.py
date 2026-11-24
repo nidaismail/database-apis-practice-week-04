@@ -7,7 +7,7 @@ from fastapi.responses import JSONResponse
 from sqlalchemy.exc import IntegrityError
 
 from .config import configure_logging, get_settings
-from .routers import categories, products
+from .routers import categories, orders, products
 
 configure_logging(debug=get_settings().debug)
 logger = logging.getLogger(__name__)
@@ -18,6 +18,7 @@ app = FastAPI(
 )
 
 app.include_router(categories.router)
+app.include_router(orders.router)
 app.include_router(products.router)
 
 
@@ -29,8 +30,7 @@ async def log_requests(
     response = await call_next(request)
     process_time = (time.perf_counter() - start_time) * 1000
     # for key, values in request.headers.items():
-    #     print(key, values)
-    print("hellow")
+    #     print(f"this is key {key}, the value is {values}")
     logger.info(
         "%s %s completed in %.2fms with status code %s",
         request.method,
