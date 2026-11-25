@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/nidaismail/database-apis-practice-week-04/)
+- Solution URL: [Github](https://github.com/nidaismail/database-apis-practice-week-04)
 
 
 ## My process
