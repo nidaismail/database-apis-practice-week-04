@@ -66,9 +66,6 @@ The project includes product-related API functionality, including:
 - ![](./Screenshot.png)
 - Successful API requests and responses in Bruno.
 - ![](./Screenshot-bruno.png)
-- PostgreSQL database and tables in DBeaver.
-- ![](./Screenshot-postgres.png)
-
 
 ### Links
 
