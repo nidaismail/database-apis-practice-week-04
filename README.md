@@ -62,15 +62,13 @@ The project includes product-related API functionality, including:
 - Combining multiple filters in a single request.
 
 ## Screenshots
-- API documentation (Swagger UI).
-- ![](./Screenshot.png)
-- Successful API requests and responses in Bruno.
-- ![](./Screenshot-bruno.png)
+API documentation (Swagger UI).
+![](./Screenshot.png)
+Successful API requests and responses in Bruno.
+![](./Screenshot-bruno.png)
 
 ### Links
-
 - Solution URL: [Github](https://github.com/nidaismail/database-apis-practice-week-04)
-Add screenshots of:
 
 ## What I Learned
 
